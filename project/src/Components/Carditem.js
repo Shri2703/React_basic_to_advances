@@ -1,16 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-
+//props 
 
 const Carditem = ({ head, des }) => {
   return (
-    <div>
-      <div class='card' >
-        <div class='card-body'>
-          <h5 class='card-title'>{head}</h5>
-          <p class='card-text'>{des}</p>
-          <a href='#' class='btn btn-primary'>
+    <div className='col md-6'>
+      <div className='card ' >
+        <div className='card-body'>
+          <h5 className='card-title'>{head}</h5>
+          <p className='card-text'>{des}</p>
+          <a href='#' className='btn btn-primary'>
             Go somewhere
           </a>
         </div>

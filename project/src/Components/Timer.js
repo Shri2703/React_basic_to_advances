@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-
+// hooks: useState, useRef
 const Timer = () => {
   const [count, setCount] = useState(0)
   const intervalRef = useRef(null)

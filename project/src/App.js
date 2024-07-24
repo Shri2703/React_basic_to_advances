@@ -7,6 +7,10 @@ import Book from './Components/Book'
 
 import Carditem from './Components/Carditem'
 import Timer from './Components/Timer'
+import UncontrolledInput from './Components/UncontrolledInput'
+import ControlledInput from './Components/ControlledInput'
+import ParentComponent from './Components/ParentComponent'
+import Counter from './Components/Counter'
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -73,6 +77,10 @@ const App = () => {
       ))}
 
       <Timer />
+      <ControlledInput />
+      <UncontrolledInput />
+      <ParentComponent/>
+      <Counter />
     </div>
   )
 }
